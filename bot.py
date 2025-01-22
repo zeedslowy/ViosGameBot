@@ -7,10 +7,10 @@ from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardBu
 from pyrogram.enums.chat_type import ChatType
 from threading import Timer
 
-API_ID = {APİ_İD}
+API_ID = 25167468 # APİ İD ADRESİNİZ
 API_HASH = "{APİ_HASH}"
 BOT_TOKEN = "{BOT_TOKEN}"
-session_name = "PlutoKanal"
+session_name = "{GROUP_NAME}"
 
 
 
@@ -61,8 +61,8 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS bets (
 
 conn.commit()
 
-NAME = "yetimhanekumarbazibot"
-OWNER_ID = 2063166406
+NAME = "{BOT_USERNAME}"
+OWNER_ID = 2063166406 # OWNER İD
 
 moon = [
     [
@@ -76,7 +76,7 @@ moon = [
     ],
     [
         InlineKeyboardButton(text="👤 Owner", user_id=OWNER_ID),
-        InlineKeyboardButton(text="📢 Kanal", url=f"https://t.me/plutokanal"),
+        InlineKeyboardButton(text="📢 Kanal", url=f"https://t.me/{GROUP_NAME}"),
     ],
 ]
 
