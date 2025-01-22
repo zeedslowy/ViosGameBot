@@ -7,9 +7,9 @@ from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardBu
 from pyrogram.enums.chat_type import ChatType
 from threading import Timer
 
-API_ID = Api id gir
-API_HASH = "Api hash gir"
-BOT_TOKEN = "Token gir"
+API_ID = {APİ_İD}
+API_HASH = "{APİ_HASH}"
+BOT_TOKEN = "{BOT_TOKEN}"
 session_name = "PlutoKanal"
 
 
